@@ -5,6 +5,37 @@
 //------------------------------
 
 // Write the assignment code here
+class Real {
+  protected:
+      double a;
+  public:
+    Real(): a(0.0) {}
+    double object.real:: GetReal();
+    return real;
+    Real operator+ (const Real& r);
+
+};
+
+class Complex : public Real {
+  protected:
+    double v,b;
+ public:   
+Complex(): v(0.0), b(0.0) Real() {}
+double object.complex::GetImaginary();
+return complex;
+Complex operator+ (const Complex& r);
+
+}; 
+
+class Surreal: public complex {
+  protected:
+    double a,b,c;
+public:
+Surreal(): a(0.0), b(0.0), c(0.0) Complex() {}
+double object.surreal::GetSurreal();
+return surreal;
+Surreal operator+ (const Surreal& s);
+};
 
 
 //------------------------------
